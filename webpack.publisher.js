@@ -73,7 +73,8 @@ const publisherConfig = {
             patterns: [
                 { from: `./src/data/demo.json`, to: `./data/demo.json` },
                 { from: `./src/config.publish.json`, to: `config.json` },
-                { from: `./src/config.runtime.json`, to: `assets/config.json` }
+                { from: `./src/config.runtime.json`, to: `assets/config.json` },
+                { from: `./src/scripts/custom.js`, to: "./scripts/custom.js" }
             ]
         })
     ],
